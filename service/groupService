@@ -1,0 +1,5 @@
+const GroupDao = require('../dao/groupDao.js');
+
+exports.queryLastContacts = function(ip,senderId){
+    return GroupDao.queryLastContacts(ip,senderId);
+}
